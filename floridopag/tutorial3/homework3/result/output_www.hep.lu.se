@@ -1,0 +1,22 @@
+
+Downloading file https://www.hep.lu.se/courses/MNXB01/index.html into ./tmp.RyFxbf6h41 using wget
+--2022-09-13 13:20:23--  https://www.hep.lu.se/courses/MNXB01/index.html
+Resolving www.hep.lu.se (www.hep.lu.se)... 130.235.185.151
+Connecting to www.hep.lu.se (www.hep.lu.se)|130.235.185.151|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15047 (15K) [text/html]
+Saving to: ‘./tmp.RyFxbf6h41’
+
+     0K .......... ....                                       100% 44,8M=0s
+
+2022-09-13 13:20:23 (44,8 MB/s) - ‘./tmp.RyFxbf6h41’ saved [15047/15047]
+
+
+Checking ./tmp.RyFxbf6h41 properties with the 'file' command...
+Basic info:
+./tmp.RyFxbf6h41: HTML document, UTF-8 Unicode text
+MIME info:
+./tmp.RyFxbf6h41: text/html; charset=utf-8
+
+Removing ./tmp.RyFxbf6h41
+

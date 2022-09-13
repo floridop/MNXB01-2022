@@ -1,0 +1,7 @@
+Missing first parameter
+Usage:
+   ./filechecker.sh <URL>
+
+Example:
+    ./filechecker.sh https://www.hep.lu.se/
+exiting...

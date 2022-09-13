@@ -1,0 +1,6 @@
+
+Downloading file garbage into ./tmp.sZAP2CVkqF using wget
+--2022-09-13 13:20:04--  http://garbage/
+Resolving garbage (garbage)... failed: Name or service not known.
+wget: unable to resolve host address ‘garbage’
+Error, download failed, check URL of input parameter: 'garbage'. Exiting...

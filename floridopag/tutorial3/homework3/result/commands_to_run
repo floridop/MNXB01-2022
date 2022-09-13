@@ -1,0 +1,5 @@
+./filechecker.sh
+
+./filechecker.sh www.hep.lu.se
+
+./filechecker.sh garbage
