@@ -25,7 +25,7 @@ exit with error code.
 ## The problem
 
 You want to know the format of the file you are downloading 
-(see slides about file format for a better understanding) , and its
+(see slides about Datasets for a better understanding) , and its
 *MIME type*. 
 
 The MIME type is some special text that your browser checks
