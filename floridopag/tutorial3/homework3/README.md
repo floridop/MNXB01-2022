@@ -75,14 +75,14 @@ pluma filechecker.sh&
 - To test your code, don't forget to make `filechecker.sh` executable:
 
 ```console
-chmod +x cityandyear.sh
+chmod +x filechecker.sh
 ```
 
 While coding you may assume that the temporary file should be created 
 in the current directory where the script is.
 However, correction will be done on a different computer than Aurora,
-so it is recommended to use relative paths to reference such
-scripts. Read about relative paths in the manual and in Tutorial 2.
+so it is **mandatory** to use **relative paths** to reference such folder.
+Read about relative paths in the manual and in Tutorial 2.
    
 ### How to progress 
 
@@ -138,14 +138,19 @@ Check the folder `result/` to compare what the files you generate should look li
 The `output_*` files in `result/` show you what the program should print when 
 called on selected inputs. Check the section Folder Structure above.
 
-You can compare files using `diff` or `meld`. More about this will come with the git tutorial.
+You can compare files using `diff` or `meld`. More about this is in a separate section below
+and other information will come during the git tutorial.
 
 #### Tips to check the script results
 
 You can use the `diff` tool to compare the differences between the 
 output of your script and the outputs in `result/`.
 
-`diff A B` : The diff tool prints out differences between a file A and B,
+```console
+diff fileA fileB
+```
+
+The `diff` tool prints out differences between a `fileA` and `fileB`,
 and does not print the things the two files have in common.
 
 Some info about diff here:
@@ -168,11 +173,10 @@ For the homework, here's what you can do:
 
 Some outputs will differ by definition, for example, `wget` prints out
 the date when it downloads things, and the tempfile name is different
-everytime (that is the idea with `mktemp`).
+everytime (that is the idea with the `mktemp` program you will be using).
 That is ok, they will be different at every script run.
 
-The lines about filetype should **NOT** differ, that means that `diff`
-
+However, the lines about filetype should **NOT** differ, that means that `diff`
 should not print them out.
 
 If you want a graphical comparison tool, you can use `meld`.
